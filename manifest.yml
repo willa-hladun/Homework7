@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: CSC101Test
+  host: CSC101Test
+  disk_quota: 1024M
+  services:
+  - CSC101Test-cloudantNoSQLDB
